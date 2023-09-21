@@ -338,7 +338,21 @@ a{
     margin-bottom: 2rem;
 }
 
-@media screen and(min-width:1024px) {
+.plan--popular .card__header{
+    position: relative;
+
+}
+
+.plan--popular .card__header::before{
+    content: url(../Images/popular.svg);
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    right: 5%;
+}
+
+@media screen and (min-width:1024px){
     .plan__name{
         font-size: 1.4rem;
     }
@@ -350,8 +364,9 @@ a{
     .plan__billing-cycle{
         font-size: 1.6rem
     }
-    
+
     .plan__description{
         font-size: 1.7rem;
     }
 }
+
