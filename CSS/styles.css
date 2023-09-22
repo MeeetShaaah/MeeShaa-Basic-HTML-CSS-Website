@@ -155,8 +155,6 @@ a{
 }
 
 /*Icons....*/
-
-
 .icon{
     width: 40px;
     height: 40px;
@@ -307,7 +305,7 @@ a{
     background: #02cdf1;
 }
 
-/*plands....*/
+/*Plans....*/
 
 .plan__name{
     color: #fff;
@@ -352,7 +350,7 @@ a{
     right: 5%;
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width: 1024px){
     .plan__name{
         font-size: 1.4rem;
     }
@@ -370,3 +368,20 @@ a{
     }
 }
 
+/*Media....*/
+
+.media{
+    display: flex;
+}
+
+.media__title{
+    margin-top: 0;
+}
+
+.media__body{
+    margin: 0 2rem;
+}
+
+.media__image{
+    margin-top: 1rem;
+}
