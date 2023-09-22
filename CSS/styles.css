@@ -436,3 +436,22 @@ a{
         font-size: 1.6rem;
     }
 }
+
+/*Grids....*/
+
+.grid{
+    display: grid;
+}
+
+
+@media screen and (min-width: 768px){
+    .grid--col-2{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .grid--col-3{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
